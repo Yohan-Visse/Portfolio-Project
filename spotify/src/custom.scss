@@ -1,0 +1,38 @@
+html {
+    background-color: #121212;
+}
+
+body {
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto",
+        "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans",
+        "Helvetica Neue", sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+    font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+        monospace;
+}
+
+/* -------------------------------------------------------------------------- */
+/*                                 CARD STYLES                                */
+/* -------------------------------------------------------------------------- */
+.bg-page {
+    background-color: #101010;
+}
+
+.card-color {
+    background-color: #1d1d1d;
+}
+
+
+.genre-card:hover {
+    box-shadow: 0 8px 16px rgb(255, 255, 255), 0 4px 6px rgba(0, 0, 0, 0.2);
+    cursor: pointer;
+}
+
+.rotate-icon {
+    transform: rotate(180deg);
+  }
